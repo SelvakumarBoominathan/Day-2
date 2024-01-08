@@ -1,0 +1,49 @@
+Write a blog on the difference between document and window object.
+
+
+JavaScript, as a versatile and dynamic programming language, interacts with the Document Object Model (DOM) to manipulate and control elements on a web page. Two fundamental objects in this interaction are the document and window objects.
+
+
+scope:
+
+ 1. Window object represents the global browser window or tab. It serves as the entry point for interacting with browser environment. 
+ 2. The document object represents the entire HTML document loaded in the browser. It provides access to the content and structure of the document.
+
+Properties:
+
+ 1. Window object contains properties related to the browser window, such as innerWidth, innerHeight, and location. Provides information about the browser environment. 
+ 2. Document object contains properties like title, URL, and body. Represents elements within the HTML document.
+
+ Methods:
+
+ 1. Window object hosts methods like alert(), confirm(), and setTimeout(). 
+ 2. Document object hosts methods for document manipulation, such as getElementById(), querySelector(), and createElement(). Enables dynamic changes to the document structure and content
+
+
+ Events:
+
+ 1. Window object Manages global functionalities and events. Variables declared without the var, let, or const keyword become global variables implicitly.
+ 2. Document object captures and handles events related to the document, such as clicks, keypresses, and form submissions. Facilitates user interaction and responsiveness.
+
+
+Differences: 
+
+Global vs. Document-Specific:
+
+ 1. The window object deals with global browser properties and functionalities. 
+ 2. The document object focuses on the content and structure of the loaded HTML document.
+
+ Interaction with Elements::
+
+ 1. Window object manages the overall browser environment, the document object is crucial for interacting with specific HTML elements.
+ 2. Document object contains properties like title, URL, and body. Represents elements within the HTML document.
+
+ Scope of Properties:
+
+ 1. Global variables are properties of the window object, accessible globally.
+ 2. Document-specific properties and methods are encapsulated within the document object.
+
+ Manipulating Content:
+
+ 1. The document object is the primary tool for dynamically manipulating the content and structure of the HTML document. 
+ 2. The window object provides methods for managing the global environment and initiating user interactions.
